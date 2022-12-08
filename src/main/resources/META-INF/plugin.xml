@@ -27,4 +27,13 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
+    <actions>
+        <action id="PBSearchCurrentWord" class="com.example.ideaconfiguration.actions.SearchCurrentWord"
+                text="PBSearchCurrentWord"/>
+        <action id="PBOpenGitlab" class="com.example.ideaconfiguration.actions.OpenGitlab" text="PBOpenGitlab"/>
+        <action id="PBGetCurrentFilePath" class="com.example.ideaconfiguration.actions.GetCurrentFilePath"
+                text="PBGetCurrentFilePath"/>
+        <action id="PBGetCurrentFileDirectory" class="com.example.ideaconfiguration.actions.GetCurrentFileDirectory"
+                text="PBGetCurrentFileDirectory"/>
+    </actions>
 </idea-plugin>
